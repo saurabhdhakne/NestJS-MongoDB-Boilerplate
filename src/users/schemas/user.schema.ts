@@ -16,7 +16,6 @@ export class User extends Document {
     @Prop({ required: true })
     mode: string;
     
-    // bookmarks: Bookmark[],  
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
